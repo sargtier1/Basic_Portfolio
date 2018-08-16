@@ -4,6 +4,8 @@
     clear: both;
 }
 
+/*Navbar, Header, Over All Style of Page  */
+
 body{
     background-image: url("http://www.fabulousblogging.com/wp-content/uploads/2012/10/fabric_plaid2.jpg");
 }
@@ -41,6 +43,25 @@ button{
     color: #cccccc;
 }
 
+hr{
+    color: #cccccc;
+    background-color:#cccccc;
+    border: none;
+    height: 2px;
+    width: 870px;
+}
+
+h1{
+    color:#4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 24px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+/* ABOUT */
+/* Section strucutre and style for About */
+
 section{
     background-color:#ffffff;
     color:#777777;
@@ -60,13 +81,6 @@ section{
     border: 1px solid #dddddd;
 }
 
-h1{
-    color:#4aaaa5;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-    font-size: 24px;
-    padding-left: 20px;
-    margin-bottom: 30px;
-}
 
 p {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -82,33 +96,15 @@ p {
     height: 150px;
 }
 
-hr{
-    color: #cccccc;
-    background-color:#cccccc;
-    border: none;
-    height: 2px;
-    width: 870px;
-}
-
-footer{
-    position: fixed;
-    clear:both;
-    margin: auto;
-    padding: 15px;
-    width: 100%;
-    background-color: grey;
-    text-align: center;
-    color: white;
-    height: 10px;
-    bottom: 0px;
-    /* border: 5px #4aaaa5; */
-}
+/* CONTACT */
+/* Sumbission Form Structure and Sizing */
 
 input[type=text] {
     width: 100%;
     padding: 5px;
     margin-top: 4px;
     box-sizing: border-box;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 input[type=msg] {
@@ -116,12 +112,14 @@ input[type=msg] {
     padding: 80px;
     margin-top: 4px;
     box-sizing: border-box;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 form {
     margin: auto;
     width: 870px;
     padding: 15px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 input[type=button] {
@@ -134,18 +132,175 @@ input[type=button] {
     font-size: 14px;
 }
 
-.img {
+.img1 {
     position: relative;
-    float: left;
     width:  250px;
     height: 250px;
-    background-position: 50% 50%;
-    background-repeat:   no-repeat;
-    background-size:     cover;
-    padding: 15px;
-    margin:auto;
+    /* margin-left: 15px; */
+    border: 1px solid #dddddd;
+    float:left;
 }
 
 #pMain {
     height: 700px
 }
+
+/* PORTFOLIO */
+/* Image Box 1 */
+
+#box1{
+    position: absolute;
+}
+
+.img1 {
+    position: relative;
+    width:  250px;
+    height: 250px;
+    margin-left: 15px;
+    border: 1px solid #dddddd;
+    float:left;
+}
+
+#p1{
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #dddddd;
+    width: 232px;
+    height: 30px;
+    margin-left:15px;
+    bottom: 5px;
+    padding: 10;
+    text-align: center;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+/* Image Box 2 */
+
+#box2{
+    position: absolute;
+    left: 350px;
+} 
+
+.img2 {
+    position: relative;
+    width:  250px;
+    height: 250px;
+    left: 240px;
+    border: 1px solid #dddddd;
+ 
+}
+
+#p2{
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #dddddd;
+    width: 232px;
+    height: 30px;
+    left: 240px;
+    bottom: 5px;
+    padding: 10;
+    text-align: center;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+} 
+
+/* Image Box 3 */
+
+#box3 {
+    position: absolute;
+    left: 640px;
+} 
+
+.img3 {
+    position: relative;
+    width:  250px;
+    height: 250px;
+    left: 260px;
+    border: 1px solid #dddddd;
+ 
+}
+
+#p3 {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #dddddd;
+    width: 232px;
+    height: 30px;
+    left: 260px;
+    bottom: 5px;
+    padding: 10;
+    text-align: center;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+} 
+
+/* Image Box 4 */
+#box4 {
+    position: absolute;
+    top: 475px;
+} 
+
+.img4 {
+    position: relative;
+    width:  250px;
+    height: 250px;
+    margin-left: 15px;
+    border: 1px solid #dddddd;
+    float:left;
+}
+
+#p4 {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #dddddd;
+    width: 232px;
+    height: 30px;
+    margin-left:15px;
+    bottom: 5px;
+    padding: 10;
+    text-align: center;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+} 
+
+/* Image Box 5 */
+
+#box5{
+    position: absolute;
+    left: 350px;
+    top: 475px;
+}
+
+.img5 {
+    position: relative;
+    width:  250px;
+    height: 250px;
+    left: 240px;
+    border: 1px solid #dddddd;
+}
+
+#p5 {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #dddddd;
+    width: 232px;
+    height: 30px;
+    left: 240px;
+    bottom: 5px;
+    padding: 10;
+    text-align: center;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+} 
+
+
+/* Footer Structure and Sizing */
+
+footer{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background: #666666;
+    color: #ffffff;
+    padding: 15px 0;
+    text-align: center;
+    border-top: 5px solid #4aaaa5;
+    position: fixed;
+    bottom: 0;
+    height: 10px;
+    width: 100%;
+ }
