@@ -1,0 +1,151 @@
+.clearfix::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+
+body{
+    background-image: url("http://www.fabulousblogging.com/wp-content/uploads/2012/10/fabric_plaid2.jpg");
+}
+
+header{
+    background-color: #ffffff;
+    width: 960px;
+    height: 44px;
+    margin: auto; 
+    border: 1px solid #dddddd;
+}
+
+#Name{
+    Float:left;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 24px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    margin: auto;
+    width: 25%;
+    padding: 10px;
+}
+
+nav{
+    float:right;
+    margin: auto;
+    padding: 10px;    
+}
+
+button{
+    border-style: none;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size:15px;
+    color: #cccccc;
+}
+
+section{
+    background-color:#ffffff;
+    color:#777777;
+    width: 898px;
+    margin: auto;
+    padding: 30px;
+    border: 1px solid #dddddd;
+}
+
+.mainInfo {
+    height: 438px;
+    background-color:#ffffff;
+    color:#777777;
+    width: 898px;
+    margin: auto;
+    padding: 30px;
+    border: 1px solid #dddddd;
+}
+
+h1{
+    color:#4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 24px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding: 10px;
+    line-height: 25px;
+}
+
+#profile {
+    float: left;
+    padding: 15px;
+    margin: 0;
+    width: 150px;
+    height: 150px;
+}
+
+hr{
+    color: #cccccc;
+    background-color:#cccccc;
+    border: none;
+    height: 2px;
+    width: 870px;
+}
+
+footer{
+    position: fixed;
+    clear:both;
+    margin: auto;
+    padding: 15px;
+    width: 100%;
+    background-color: grey;
+    text-align: center;
+    color: white;
+    height: 10px;
+    bottom: 0px;
+    /* border: 5px #4aaaa5; */
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 5px;
+    margin-top: 4px;
+    box-sizing: border-box;
+}
+
+input[type=msg] {
+    width: 100%;
+    padding: 80px;
+    margin-top: 4px;
+    box-sizing: border-box;
+}
+
+form {
+    margin: auto;
+    width: 870px;
+    padding: 15px;
+}
+
+input[type=button] {
+    border-style: none;
+    color: #ffffff;
+    background-color:#4aaaa5;
+    height: 7%;
+    width: 12%;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.img {
+    position: relative;
+    float: left;
+    width:  250px;
+    height: 250px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+    padding: 15px;
+    margin:auto;
+}
+
+#pMain {
+    height: 700px
+}
