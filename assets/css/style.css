@@ -59,6 +59,12 @@ h1{
     margin-bottom: 30px;
 }
 
+span{
+    color:#cccccc;
+
+
+}
+
 /* ABOUT */
 /* Section strucutre and style for About */
 
@@ -150,6 +156,7 @@ input[type=button] {
 
 #box1{
     position: absolute;
+    float: left;
 }
 
 .img1 {
@@ -164,7 +171,7 @@ input[type=button] {
 #p1{
     position: absolute;
     background-color: #4aaaa5;
-    color: #dddddd;
+    color: #ffffff;
     width: 232px;
     height: 30px;
     margin-left:15px;
@@ -177,27 +184,26 @@ input[type=button] {
 /* Image Box 2 */
 
 #box2{
-    position: absolute;
-    left: 350px;
+    position: relative;
+    left: 325px;
+    float: left;
 } 
 
 .img2 {
     position: relative;
     width:  250px;
     height: 250px;
-    left: 240px;
     border: 1px solid #dddddd;
  
 }
 
 #p2{
-    position: absolute;
+    position: relative;
     background-color: #4aaaa5;
-    color: #dddddd;
+    color: #ffffff;
     width: 232px;
     height: 30px;
-    left: 240px;
-    bottom: 5px;
+    bottom: 55px;
     padding: 10;
     text-align: center;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -206,27 +212,26 @@ input[type=button] {
 /* Image Box 3 */
 
 #box3 {
-    position: absolute;
-    left: 640px;
+    position: relative;
+    float:left;
+    left:380px;
 } 
 
 .img3 {
     position: relative;
     width:  250px;
     height: 250px;
-    left: 260px;
     border: 1px solid #dddddd;
  
 }
 
 #p3 {
-    position: absolute;
+    position: relative;
     background-color: #4aaaa5;
-    color: #dddddd;
+    color: #ffffff;
     width: 232px;
     height: 30px;
-    left: 260px;
-    bottom: 5px;
+    bottom: 55px;
     padding: 10;
     text-align: center;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -236,6 +241,7 @@ input[type=button] {
 #box4 {
     position: absolute;
     top: 475px;
+    float: left;
 } 
 
 .img4 {
@@ -250,7 +256,7 @@ input[type=button] {
 #p4 {
     position: absolute;
     background-color: #4aaaa5;
-    color: #dddddd;
+    color: #ffffff;
     width: 232px;
     height: 30px;
     margin-left:15px;
@@ -263,27 +269,26 @@ input[type=button] {
 /* Image Box 5 */
 
 #box5{
-    position: absolute;
-    left: 350px;
-    top: 475px;
+    position: relative;
+    top: 285px;
+    float: left;
+    left: -177px;
 }
 
 .img5 {
     position: relative;
     width:  250px;
     height: 250px;
-    left: 240px;
     border: 1px solid #dddddd;
 }
 
 #p5 {
-    position: absolute;
+    position: relative;
     background-color: #4aaaa5;
-    color: #dddddd;
+    color: #ffffff;
     width: 232px;
     height: 30px;
-    left: 240px;
-    bottom: 5px;
+    bottom: 55px;
     padding: 10;
     text-align: center;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -304,3 +309,4 @@ footer{
     height: 10px;
     width: 100%;
  }
+
